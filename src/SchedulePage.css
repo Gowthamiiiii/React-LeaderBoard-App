@@ -1,0 +1,105 @@
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .table{
+    margin-top: 20%;
+    text-align: center;
+    }
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  .images
+  {
+    width: 53px;
+    height: 37px;
+  }
+  @media only screen and (max-width: 600px) {
+    table th:nth-child(1),
+    table td:nth-child(1) {
+      display: none;
+    }
+    table td, table th {
+      padding: 5px;
+    }
+    .table {
+      margin-top: 30%;
+    }
+  }
+  td span {
+    padding-left: 10px;
+    padding-right: 10px;
+  } 
+  #table{
+    margin-top: 5%;
+    }
+
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  
+  table {
+    padding: 10px;
+  }
+  
+  thead th,
+  tbody td {
+    padding: 10px;
+  }
+  table {
+    margin: 0 auto;
+  }
+  body {
+    padding: 5vw 5vh;
+  }
+  
+  body {
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+
+  }
+
+  
+  table td, table th {
+    text-align: center;
+    height: 60px;
+    font-size: 20px;
+  }
+  table th, #tr {
+    background-color: lightblue;
+  }
+
+  @media screen and (max-width: 450px) {
+    body {
+      padding: 0;
+    }
+      
+  #table{
+    margin-top: 15%;
+    }
+
+    table {
+      padding-right: 20px;
+    }
+  }
+  .container {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+  }
+  .image {
+    margin-right: 10px; 
+  }
